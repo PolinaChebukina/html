@@ -1,0 +1,69 @@
+.beer_blog{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f4eee1;
+    padding: 0px 15px 0px 15px;
+    
+}
+.xxx_brown {
+    font-family: "Frank Ruhl Libre",serif;
+    color: rgb(150,90,28);
+    font-size: 14px;
+}
+@media (min-width: 320px) {
+    .beer_blog {
+        padding: 50px 0 90px 0;
+    }
+.beer_blog_spikelet {
+    object-fit: contain;
+    height: 32px;
+    margin-top: 25px;
+    
+
+}
+.main_title{
+    font-family:  "Frank Ruhl Libre",serif;
+    color:#261d17;
+    font-size: 34px;
+    margin-top: 20px;
+}
+.beer_blog_learn_beer{
+    font-family:  'Rubik', sans-serif;
+    color:#614e44;
+    font-size: 20px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+.beer_blog_no_blogs{
+    position: relative;
+    display: flex;
+    height: 450px;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32;
+    align-items: center;
+    border: 1px solid rgba(33, 39, 54, 0.12);
+}
+.button{
+    border-width: 2px;
+    border-radius: 25px;
+    margin-top: 20px;
+    width: 148px;
+    height: 40px;
+    color: white;
+    background-color: green;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.7;
+    padding: 13px 37px;
+    margin: 0 auto;
+    display: block;
+}
+}
